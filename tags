@@ -1,0 +1,76 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+APP_PATH	bin/rails	/^APP_PATH = File.expand_path('..\/config\/application', __dir__)$/;"	c
+APP_ROOT	bin/setup	/^APP_ROOT = Pathname.new File.expand_path('..\/..\/', __FILE__)$/;"	c
+APP_ROOT	bin/update	/^APP_ROOT = Pathname.new File.expand_path('..\/..\/', __FILE__)$/;"	c
+ActiveSupport	test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
+AddNameToUsers	db/migrate/20161110040529_add_name_to_users.rb	/^class AddNameToUsers < ActiveRecord::Migration[5.0]$/;"	c
+AddUserTypeToUsers	db/migrate/20161110035310_add_user_type_to_users.rb	/^class AddUserTypeToUsers < ActiveRecord::Migration[5.0]$/;"	c
+AdminUser	app/models/admin_user.rb	/^class AdminUser < ApplicationRecord$/;"	c
+AdminUserTest	test/models/admin_user_test.rb	/^class AdminUserTest < ActiveSupport::TestCase$/;"	c
+Api	app/controllers/api/dishes_controller.rb	/^class Api::DishesController < ApiController$/;"	c
+Api	app/controllers/api/reservations_controller.rb	/^class Api::ReservationsController < ApiController$/;"	c
+ApiController	app/controllers/api_controller.rb	/^class ApiController < ActionController::Base$/;"	c
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:LunchReservation
+ApplicationCable	app/channels/application_cable/channel.rb	/^module ApplicationCable$/;"	m
+ApplicationCable	app/channels/application_cable/connection.rb	/^module ApplicationCable$/;"	m
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+ApplicationJob	app/jobs/application_job.rb	/^class ApplicationJob < ActiveJob::Base$/;"	c
+ApplicationMailer	app/mailers/application_mailer.rb	/^class ApplicationMailer < ActionMailer::Base$/;"	c
+ApplicationRecord	app/models/application_record.rb	/^class ApplicationRecord < ActiveRecord::Base$/;"	c
+AuthenticationError	app/services/authenticator.rb	/^  class AuthenticationError < StandardError; end$/;"	c	class:Authenticator
+Authenticator	app/services/authenticator.rb	/^class Authenticator$/;"	c
+Channel	app/channels/application_cable/channel.rb	/^  class Channel < ActionCable::Channel::Base$/;"	c	class:ApplicationCable
+Connection	app/channels/application_cable/connection.rb	/^  class Connection < ActionCable::Connection::Base$/;"	c	class:ApplicationCable
+CreateDeposits	db/migrate/20161115022736_create_deposits.rb	/^class CreateDeposits < ActiveRecord::Migration[5.0]$/;"	c
+CreateDishes	db/migrate/20161108080927_create_dishes.rb	/^class CreateDishes < ActiveRecord::Migration[5.0]$/;"	c
+CreateDoorkeeperTables	db/migrate/20161115050049_create_doorkeeper_tables.rb	/^class CreateDoorkeeperTables < ActiveRecord::Migration$/;"	c
+CreateReservations	db/migrate/20161110044406_create_reservations.rb	/^class CreateReservations < ActiveRecord::Migration[5.0]$/;"	c
+CreateUserTypes	db/migrate/20161110035255_create_user_types.rb	/^class CreateUserTypes < ActiveRecord::Migration[5.0]$/;"	c
+Deposit	app/models/deposit.rb	/^class Deposit < ApplicationRecord$/;"	c
+DepositTest	test/models/deposit_test.rb	/^class DepositTest < ActiveSupport::TestCase$/;"	c
+DeviseCreateAdminUsers	db/migrate/20161107074118_devise_create_admin_users.rb	/^class DeviseCreateAdminUsers < ActiveRecord::Migration[5.0]$/;"	c
+DeviseCreateUsers	db/migrate/20161109090047_devise_create_users.rb	/^class DeviseCreateUsers < ActiveRecord::Migration[5.0]$/;"	c
+Dish	app/models/dish.rb	/^class Dish < ApplicationRecord$/;"	c
+DishTest	test/models/dish_test.rb	/^class DishTest < ActiveSupport::TestCase$/;"	c
+GoogleLogin	app/services/google_login.rb	/^class GoogleLogin$/;"	c
+LunchReservation	config/application.rb	/^module LunchReservation$/;"	m
+PEOPLE_API	app/services/google_login.rb	/^  PEOPLE_API = 'https:\/\/www.googleapis.com\/plus\/v1\/people\/me'$/;"	c
+Reservation	app/models/reservation.rb	/^class Reservation < ApplicationRecord$/;"	c
+ReservationTest	test/models/reservation_test.rb	/^class ReservationTest < ActiveSupport::TestCase$/;"	c
+User	app/models/user.rb	/^class User < ApplicationRecord$/;"	c
+UserTest	test/models/user_test.rb	/^class UserTest < ActiveSupport::TestCase$/;"	c
+UserType	app/models/user_type.rb	/^class UserType < ApplicationRecord$/;"	c
+UserTypeTest	test/models/user_type_test.rb	/^class UserTypeTest < ActiveSupport::TestCase$/;"	c
+authenticate	app/services/authenticator.rb	/^  def self.authenticate params$/;"	F	class:Authenticator
+authenticate_with_email	app/services/authenticator.rb	/^  def self.authenticate_with_email email, password$/;"	F	class:Authenticator
+authenticate_with_google	app/services/authenticator.rb	/^  def self.authenticate_with_google token$/;"	F	class:Authenticator
+before_5_pm	app/models/reservation.rb	/^  def before_5_pm$/;"	f	class:Reservation
+change	db/migrate/20161107074118_devise_create_admin_users.rb	/^  def change$/;"	f	class:DeviseCreateAdminUsers
+change	db/migrate/20161108080927_create_dishes.rb	/^  def change$/;"	f	class:CreateDishes
+change	db/migrate/20161109090047_devise_create_users.rb	/^  def change$/;"	f	class:DeviseCreateUsers
+change	db/migrate/20161110035255_create_user_types.rb	/^  def change$/;"	f	class:CreateUserTypes
+change	db/migrate/20161110035310_add_user_type_to_users.rb	/^  def change$/;"	f	class:AddUserTypeToUsers
+change	db/migrate/20161110040529_add_name_to_users.rb	/^  def change$/;"	f	class:AddNameToUsers
+change	db/migrate/20161110044406_create_reservations.rb	/^  def change$/;"	f	class:CreateReservations
+change	db/migrate/20161115022736_create_deposits.rb	/^  def change$/;"	f	class:CreateDeposits
+change	db/migrate/20161115050049_create_doorkeeper_tables.rb	/^  def change$/;"	f	class:CreateDoorkeeperTables
+compute_amount	app/models/reservation.rb	/^  def compute_amount$/;"	f	class:Reservation
+create	app/admin/dish.rb	/^    def create$/;"	f
+create	app/controllers/api/reservations_controller.rb	/^  def create$/;"	f	class:Api
+current_user	app/controllers/api_controller.rb	/^  def current_user$/;"	f	class:ApiController
+index	app/controllers/api/dishes_controller.rb	/^  def index$/;"	f	class:Api
+index	app/controllers/api/reservations_controller.rb	/^  def index$/;"	f	class:Api
+initialize	app/services/google_login.rb	/^  def initialize google_access_token$/;"	f	class:GoogleLogin
+names	app/models/dish.rb	/^  attr_accessor :names$/;"	A
+response	app/services/google_login.rb	/^  attr_reader :result, :error, :response$/;"	A
+run	app/services/google_login.rb	/^  def run$/;"	f	class:GoogleLogin
+scoped_collection	app/admin/user.rb	/^    def scoped_collection$/;"	f
+set_user_type	app/models/user.rb	/^  def set_user_type$/;"	f	class:User
+system!	bin/setup	/^def system!(*args)$/;"	f
+system!	bin/update	/^def system!(*args)$/;"	f
